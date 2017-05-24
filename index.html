@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="">
-    <title>(Demo) FunCraft-方塊夫數位</title>
-    <link rel="shortcut icon" href="netweb_imgs/favicon.ico">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="">
+  <title>FunCraft-方塊夫數位</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Custom Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
 
-    <link href="css/main.css" rel="stylesheet">
-
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/main.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -33,54 +27,56 @@
 </head>
 
 <body id="page-top" class="index" onresize="resize_fc()">
-<div id="log" style="width:100px;height:30px;background:#FFF;position:absolute;z-index:999;bottom:0;display:none"></div>
-    <!-- Navigation -->
-    <nav id="n2" class="navbar navbar-default navbar-fixed-top top750">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  <div id="log" style="width:100px;height:30px;background:#FFF;position:absolute;z-index:999;bottom:0;display:none"></div>
+  <!-- Navigation -->
+  <nav id="n2" class="navbar navbar-default navbar-fixed-top top750">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top"><img src="netweb_imgs/LOGO-01.png"></img></a>
-            </div>
+        <a class="navbar-brand" href="#page-top"><img src="images/LOGO-01.png"></img></a>
+      </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right ">
-                    <!--<li class="hidden">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right ">
+          <!--<li class="hidden">
 	                        <a href="#page-top"></a>
 	                    </li>
 	                 -->
-                    <li class="page-scroll">
-                        <a class="scroll_bar" href="#home">Home</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="scroll_bar" href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="scroll_bar" href="#service">Service</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="scroll_bar" href="#work">Work</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="scroll_bar" href="#contact">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="scroll_bar" target="_blank" href="#"><div id="img_fb" ></div></a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+          <li class="page-scroll">
+            <a class="scroll_bar" href="#home">Home</a>
+          </li>
+          <li class="page-scroll">
+            <a class="scroll_bar" href="#about">About</a>
+          </li>
+          <li class="page-scroll">
+            <a class="scroll_bar" href="#service">Service</a>
+          </li>
+          <li class="page-scroll">
+            <a class="scroll_bar" href="#work">Work</a>
+          </li>
+          <li class="page-scroll">
+            <a class="scroll_bar" href="#contact">Contact</a>
+          </li>
+          <li class="page-scroll">
+            <a class="scroll_bar" target="_blank" href="#">
+              <div id="img_fb"></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
 
-<div class="allheader" id="home">
+  <div class="allheader" id="home">
     <div class="bk_change allbk show" id="bk1"></div>
     <div class="bk_change allbk " id="bk2"></div>
     <div class="bk_change allbk " id="bk3"></div>
@@ -89,746 +85,473 @@
     <div class="bk_change allbk " id="bk6"></div>
 
     <header class="parallax" id="slider">
-	     <div class="p1">
-	        <div class="container">
+      <div class="p1">
+        <div class="container">
 
-	            <div class="row" id="row1">
-	                         <div class="logo"> <img src="netweb_imgs/LOGO-02.png"></div>
-	                         <div class="banner_text text">
-	                         	<div class="text1">虛與實雙軌制</div>
-	                         	<div class="text2">服務行銷概念先鋒</div>
-	                         </div>
+          <div class="row" id="row1">
+            <div class="logo"> <img src="images/LOGO-02.png"></div>
+            <div class="banner_text text">
+              <div class="text1">虛與實雙軌制</div>
+              <div class="text2">服務行銷概念先鋒</div>
+            </div>
 
-	                          <div class="banner_text text no_look">
-	                         	<div class="text1"><br></div>
-	                         	<div class="text2">完整商業概念佈局</div>
-	                          </div>
+            <div class="banner_text text no_look">
+              <div class="text1"><br></div>
+              <div class="text2">完整商業概念佈局</div>
+            </div>
 
-	                          <div class="banner_text text no_look">
-	                         	<div class="text1">專業手機遊戲完整研發團隊</div>
-	                         	<div class="text2">（創意發想企劃-美術-製作- 測試）</div>
-	                          </div>
+            <div class="banner_text text no_look">
+              <div class="text1">專業手機遊戲完整研發團隊</div>
+              <div class="text2">（創意發想企劃-美術-製作- 測試）</div>
+            </div>
 
-	                          <div class="banner_text text no_look">
-	                         	<div class="text1">優於同業 2D、</div>
-	                         	<div class="text2">3D 技術程式美術</div>
-	                          </div>
+            <div class="banner_text text no_look">
+              <div class="text1">優於同業 2D、</div>
+              <div class="text2">3D 技術程式美術</div>
+            </div>
 
-	                          <div class="banner_text text no_look">
-	                         	<div class="text1">美術製作：</div>
-	                         	<div class="text2">AAA級美術製作</div>
-	                          </div>
+            <div class="banner_text text no_look">
+              <div class="text1">美術製作：</div>
+              <div class="text2">AAA級美術製作</div>
+            </div>
 
-	                          <div class="banner_text text no_look">
-	                         	<div class="text1">一貫性商業服務</div>
-	                         	<div class="text2">（市場分析-產品開發-行銷運營）</div>
-	                          </div>
+            <div class="banner_text text no_look">
+              <div class="text1">一貫性商業服務</div>
+              <div class="text2">（市場分析-產品開發-行銷運營）</div>
+            </div>
 
-	                        <div class="page-scroll">
-	                         <a href="#about"><div id="btn"></div></a>
-	                        </div>
+            <div class="page-scroll">
+              <a href="#about">
+                <div id="btn"></div>
+              </a>
+            </div>
 
-	                        <div id="select">
-	                         <div class="dot"></div>
-	                         <div class="dot"></div>
-	                         <div class="dot"></div>
-	                         <div class="dot"></div>
-	                         <div class="dot"></div>
-	                         <div class="dot"></div>
-	                        </div>
+            <div id="select">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
 
-	           </div>
-	       </div>
+          </div>
+        </div>
 
-	     </div>
+      </div>
 
-	     <nav id="n1" class="navbar navbar-default navbar-fixed-top">
-	        <div class="container" id="maxh100">
-	            <!-- Brand and toggle get grouped for better mobile display -->
-	            <div class="navbar-header page-scroll">
-	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <nav id="n1" class="navbar navbar-default navbar-fixed-top">
+        <div class="container" id="maxh100">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 	                    <span class="sr-only">Toggle navigation</span>
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <a class="navbar-brand" href="#page-top"><img src="netweb_imgs/LOGO-01.png"></img></a>
-	            </div>
+            <a class="navbar-brand" href="#page-top"><img src="images/LOGO-01.png"></img></a>
+          </div>
 
-	            <!-- Collect the nav links, forms, and other content for toggling -->
-	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	                <ul class="nav navbar-nav navbar-right ">
-	                <!--<li class="hidden">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right ">
+              <!--<li class="hidden">
 	                        <a href="#page-top"></a>
 	                    </li>
 	                 -->
-	                    <li class="page-scroll">
-	                        <a class="scroll_bar" href="#home" style="color:#fe9c03">Home</a>
-	                    </li>
-	                    <li class="page-scroll">
-	                        <a class="scroll_bar" href="#about">About</a>
-	                    </li>
-	                    <li class="page-scroll">
-	                        <a class="scroll_bar" href="#service">Service</a>
-	                    </li>
-	                    <li class="page-scroll">
-	                        <a class="scroll_bar" href="#work">Work</a>
-	                    </li>
-	                    <li class="page-scroll">
-	                        <a class="scroll_bar" href="#contact">Contact</a>
-	                    </li>
-	                    <li class="page-scroll">
-                        <a class="scroll_bar" target="_blank" href="#"><div id="img_fb" ></div></a>
-                    	</li>
-	                </ul>
-	            </div>
-	            <!-- /.navbar-collapse -->
-	        </div>
-	        <!-- /.container-fluid -->
-	    </nav>
+              <li class="page-scroll">
+                <a class="scroll_bar" href="#home" style="color:#fe9c03">Home</a>
+              </li>
+              <li class="page-scroll">
+                <a class="scroll_bar" href="#about">About</a>
+              </li>
+              <li class="page-scroll">
+                <a class="scroll_bar" href="#service">Service</a>
+              </li>
+              <li class="page-scroll">
+                <a class="scroll_bar" href="#work">Work</a>
+              </li>
+              <li class="page-scroll">
+                <a class="scroll_bar" href="#contact">Contact</a>
+              </li>
+              <li class="page-scroll">
+                <a class="scroll_bar" target="_blank" href="#">
+                  <div id="img_fb"></div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
     </header>
 
 
-   <div class="header2" id="slider2">
+    <div class="header2" id="slider2">
 
-    <div class="text_slide">
-     <div class="slide_bar" id="l_bar"></div>
-     <div class="clear_all"></div>
-     <div class="text1" id="welcome">WELCOME</div>
-     <div class="clear_all"></div>
-     <div class="slide_bar" id="r_bar"></div>
-    </div>
+      <div class="text_slide">
+        <div class="slide_bar" id="l_bar"></div>
+        <div class="clear_all"></div>
+        <div class="text1" id="welcome">WELCOME</div>
+        <div class="clear_all"></div>
+        <div class="slide_bar" id="r_bar"></div>
+      </div>
 
-    <div class="text_class">
-    	<div class="text_img_class"  id="text_img_class1">
-			     <div class="text_img"><div class="text_img words_view" id="fun"></div></div>
-			     <div class="text2"> 是一股對夢想源源不絕的動力</div>
-	    </div>
+      <div class="text_class">
+        <div class="text_img_class" id="text_img_class1">
+          <div class="text_img">
+            <div class="text_img words_view" id="fun"></div>
+          </div>
+          <div class="text2"> 是一股對夢想源源不絕的動力</div>
+        </div>
 
-	    <div class="text_img_class" id="text_img_class2">
-	     <div class="text_img"><div class="text_img words_view" id="craft"></div></div>
-	     <div class="text3"> 猶如深藏不露老師傅般失傳的工藝如此深厚 </div>
-	    </div>
+        <div class="text_img_class" id="text_img_class2">
+          <div class="text_img">
+            <div class="text_img words_view" id="craft"></div>
+          </div>
+          <div class="text3"> 猶如深藏不露老師傅般失傳的工藝如此深厚 </div>
+        </div>
 
+      </div>
     </div>
   </div>
-</div>
 
-<section id="about">
-	<div class="about" >
-		<div class="ab_title"><font class="color_gray">ABO</font><font class="color_org">UT</font></div>
+  <section id="about">
+    <div class="about">
+      <div class="ab_title">
+        <font class="color_gray">ABO</font>
+        <font class="color_org">UT</font>
+      </div>
 
-     	<div class="content_about" >
-	    	<div class="workteam_data text ">
-		    	<div class="ab_text1"><font class="color_content">本著「</font><font class="color_org">Mind to App, App to Markets</font><font class="color_content">」的理念</font></div>
-		     	<div class="ab_text2 color_content">將創意想法及有趣的概念幻化成行動，總是為您多想一點、多做一點， <br>
-		     					        專注地雕琢著腦袋中無窮創意及想法，依著美麗多變 0101程式語言， 真<br>
-								       摯的用雙手為消費者 Coding 打造出一個個樂趣又驚喜的專屬軟體及遊戲，<br>
-								      這就是 Fun Craft 使命
-				</div>
-			</div>
+      <div class="content_about">
+        <div class="workteam_data text ">
+          <div class="ab_text1">
+            <font class="color_content">本著「</font>
+            <font class="color_org">Mind to App, App to Markets</font>
+            <font class="color_content">」的理念</font>
+          </div>
+          <div class="ab_text2 color_content">將創意想法及有趣的概念幻化成行動，總是為您多想一點、多做一點， <br> 專注地雕琢著腦袋中無窮創意及想法，依著美麗多變 0101程式語言， 真<br> 摯的用雙手為消費者 Coding 打造出一個個樂趣又驚喜的專屬軟體及遊戲，<br> 這就是 Fun Craft 使命
+          </div>
+        </div>
 
-			<div class="workteam_data timeline no_look">
-		    	<div class="ab_story color_gray2">
+        <div class="workteam_data timeline no_look">
+          <div class="ab_story color_gray2">
 
-		    		<div class="story_btn" id="story_l"> </div>
-		    		<div class="story_btn" id="story_r"> </div>
+            <div class="story_btn" id="story_l"> </div>
+            <div class="story_btn" id="story_r"> </div>
 
-		    		<div class="story_text story1"><font class="color_story">方塊夫數位工作室成立</font><br>承接誠品書局 iOS專案（專司）承接 App專案</div>
-		    		<div class="story_text story2 no_look">方塊夫數位科技工作室正式<font class="color_story">更名為方塊夫數位科技股份有限公司</font></div>
-		    		<div class="story_text story3 no_look">方塊夫數位科技股份有限公司創立不同商業模式，虛與實的雙軌制服務<br>行銷，並落實此模式結合世界流行品牌公仔Qee進入虛擬市場，<font class="color_story">並與周<br>氏國際Choicee異業結盟</font></div>
-		    		<div class="story_text story4 no_look">參加2013年<font class="color_story">Computex</font>，手機遊戲首度曝光</div>
-		    		<div class="story_text story5 no_look">受臺北電腦工會及文化局邀請，參加廈門文化產業博覽交易會（文博會）<br>首次將（虛與實的雙軌制服務行銷）產品推出手機遊戲<font class="color_story">大英熊戰記</font></div>
-		    		<div class="story_text story6 no_look"><font class="color_story">因參加廈門文化產業博覽交易會（文博會）</font>受中國知名上市公司青睞，<br>
-		    										並任命方塊夫為該公司數位化內容顧問及專業手機遊戲製造商，並授權<br>該公司肖像使用權</div>
-		    		<div class="story_text story7 no_look"><font class="color_story">大英熊戰記</font>被台灣知名遊戲商松崗代理正式上線</div>
-		    		<div class="story_text story8 no_look">New Open Party<br>
-		    										調整企業架構，成立方塊夫<font class="color_story">遊戲</font>與方塊夫<font class="color_story">數位</font>兩間公司，朝向高度專注<br>專業的領域為夥伴提供最完善的服務</div>
-		    	</div>
+            <div class="story_text story1">
+              <font class="color_story">方塊夫數位工作室成立</font><br>承接誠品書局 iOS專案（專司）承接 App專案</div>
+            <div class="story_text story2 no_look">方塊夫數位科技工作室正式
+              <font class="color_story">更名為方塊夫數位科技股份有限公司</font>
+            </div>
+            <div class="story_text story3 no_look">方塊夫數位科技股份有限公司創立不同商業模式，虛與實的雙軌制服務<br>行銷，並落實此模式結合世界流行品牌公仔Qee進入虛擬市場，
+              <font class="color_story">並與周<br>氏國際Choicee異業結盟</font>
+            </div>
+            <div class="story_text story4 no_look">參加2013年
+              <font class="color_story">Computex</font>，手機遊戲首度曝光</div>
+            <div class="story_text story5 no_look">受臺北電腦工會及文化局邀請，參加廈門文化產業博覽交易會（文博會）<br>首次將（虛與實的雙軌制服務行銷）產品推出手機遊戲
+              <font class="color_story">大英熊戰記</font>
+            </div>
+            <div class="story_text story6 no_look">
+              <font class="color_story">因參加廈門文化產業博覽交易會（文博會）</font>受中國知名上市公司青睞，<br> 並任命方塊夫為該公司數位化內容顧問及專業手機遊戲製造商，並授權
+              <br>該公司肖像使用權</div>
+            <div class="story_text story7 no_look">
+              <font class="color_story">大英熊戰記</font>被台灣知名遊戲商松崗代理正式上線</div>
+            <div class="story_text story8 no_look">New Open Party<br> 調整企業架構，成立方塊夫
+              <font class="color_story">遊戲</font>與方塊夫
+              <font class="color_story">數位</font>兩間公司，朝向高度專注<br>專業的領域為夥伴提供最完善的服務</div>
+          </div>
 
-		     	<div class="ab_timeline color_content color_gray2">
-			     		<div class="timeline_dot dot1">2011/11</div>
-			     		<div class="timeline_dot dot2">2012/01</div>
-			     		<div class="timeline_dot dot3">2013/03</div>
-			     		<div class="timeline_dot dot4">2013/06</div>
-			     		<div class="timeline_dot dot5">2013/10</div>
-			     		<div class="timeline_dot dot6">2014/01</div>
-			     		<div class="timeline_dot dot7">2014/04</div>
-			     		<div class="timeline_dot dot8">2015/03</div>
-		     	</div>
-			</div>
+          <div class="ab_timeline color_content color_gray2">
+            <div class="timeline_dot dot1">2011/11</div>
+            <div class="timeline_dot dot2">2012/01</div>
+            <div class="timeline_dot dot3">2013/03</div>
+            <div class="timeline_dot dot4">2013/06</div>
+            <div class="timeline_dot dot5">2013/10</div>
+            <div class="timeline_dot dot6">2014/01</div>
+            <div class="timeline_dot dot7">2014/04</div>
+            <div class="timeline_dot dot8">2015/03</div>
+          </div>
+        </div>
 
-			<div class="workteam_data workteam no_look" >
-				<div class="select_workteam">
-					<div class="change_team appteam"></div>
-				  	<div class="change_team gameteam"></div>
-				  	<div class="change_team designteam"></div>
-				  	<div class="change_team techteam"></div>
-				</div>
+        <div class="workteam_data workteam no_look">
+          <div class="select_workteam">
+            <div class="change_team appteam"></div>
+            <div class="change_team gameteam"></div>
+            <div class="change_team designteam"></div>
+            <div class="change_team techteam"></div>
+          </div>
 
-			 	<div class="show_workteam color_workteam">
-			 		<div class="show_work_team app_t">
-			   			<div class="app_text"><img src="netweb_imgs/ABOUT/app_team3.png"><p></p>專屬於商業類APP應用<br>程式的規劃設計部門</div>
-			 		</div>
-			 		<div class="show_work_team game_t no_look">
-		   				<div class="game_text"><img src="netweb_imgs/ABOUT/game_team3.png"><p></p>專屬於大小型社群或單機<br>遊戲規劃與設計部門</div>
-		  			</div>
-		  			<div class="show_work_team design_t no_look">
-		   				<div class="design_text"><img src="netweb_imgs/ABOUT/design_team3.png"><p></p>美術部門，不僅在於2D<br>設計方面更有3D動畫專業設計</div>
-		  			</div>
-			 		<div class="show_work_team tech_t no_look">
-		   				<div class="tech_text"><img src="netweb_imgs/ABOUT/tech_team3.png"><p></p>c、c++、c#、java、HTML、<br>objective-C、PHP、MYSQL、<br>Dreamweaver、Linux、Unity</div>
-		  			</div>
-			 	</div>
+          <div class="show_workteam color_workteam">
+            <div class="show_work_team app_t">
+              <div class="app_text"><img src="images/ABOUT/app_team3.png">
+                <p></p>專屬於商業類APP應用<br>程式的規劃設計部門</div>
+            </div>
+            <div class="show_work_team game_t no_look">
+              <div class="game_text"><img src="images/ABOUT/game_team3.png">
+                <p></p>專屬於大小型社群或單機<br>遊戲規劃與設計部門</div>
+            </div>
+            <div class="show_work_team design_t no_look">
+              <div class="design_text"><img src="images/ABOUT/design_team3.png">
+                <p></p>美術部門，不僅在於2D<br>設計方面更有3D動畫專業設計</div>
+            </div>
+            <div class="show_work_team tech_t no_look">
+              <div class="tech_text"><img src="images/ABOUT/tech_team3.png">
+                <p></p>c、c++、c#、java、HTML、<br>objective-C、PHP、MYSQL、<br>Dreamweaver、Linux、Unity</div>
+            </div>
+          </div>
 
-		 </div>
-
-		</div>
-
-		<div id="img_workteam_id" >
-      		<div class="workteam_btn img1"></div>
-      		<div class="workteam_btn img2"></div>
-      		<div class="workteam_btn img3"></div>
-     	</div>
-	</div>
-</section>
-
-
-<section id="service">
-    <div class="service color_ser" >
-     <div class="ser_title">SERVICE</div>
-      <div class="ser_text">Actual situation Integration<br>
-							別於注重實體產品與數位介面設計<br>
-	  </div>
-	  <div class="ser_text2">服務設計注重的是產品服務系統，我們在提供與使用者經驗及互動的顧客旅程中，<br>
-							以達到感動與創新為標的，創新服務在提供的過程中，能夠隨著時間，不斷進化與演化，<br>
-							實踐更系統化又更貼心的創新動能
-	  </div>
-
-	  <div class="ser_text3">
-							我們的目標是創造有用、好用，人們渴望、效率好又有效的應用程式；<br>
-							是以使用者為中心的方法進行開發，聚焦著力於顧客的體驗上，<br>
-							以提升服務前端的品質為成功的關鍵及價值所在。
-	  </div>
-	<div class="ser_img_class">
-	 <div class="ser_img"></div>
-	</div>
-
-    </div>
-
-
-   <div class="mind">
-     <div class="m_title color_org"><font class="color_gray">Mind to App，</font>App to Market!</div>
-     <div class="m_text color_gray2">APP production</div>
-
-     <div class="m_text_class">
-         <div class="m_img"></div>
-
-      <div class="m_text3 color_work_content"> 開發團隊並不僅僅是一些開發者。它是一個更大的團隊，能使所有事情都運作起來。</div>
-
-      <div class="m_text3  color_work_content">你可以想像一下百老匯音樂劇。演員在前台，但是幕後也發生著許多事情。開發合格的 app也是一樣
-      	<div class="m_img2"></div>
+        </div>
 
       </div>
 
+      <div id="img_workteam_id">
+        <div class="workteam_btn img1"></div>
+        <div class="workteam_btn img2"></div>
+        <div class="workteam_btn img3"></div>
+      </div>
+    </div>
+  </section>
 
 
-      <div class="m_text2">-Ryan Matzner</div>
+  <section id="service">
+    <div class="service color_ser">
+      <div class="ser_title">SERVICE</div>
+      <div class="ser_text">Actual situation Integration<br> 別於注重實體產品與數位介面設計
+        <br>
+      </div>
+      <div class="ser_text2">服務設計注重的是產品服務系統，我們在提供與使用者經驗及互動的顧客旅程中，<br> 以達到感動與創新為標的，創新服務在提供的過程中，能夠隨著時間，不斷進化與演化，
+        <br> 實踐更系統化又更貼心的創新動能
+      </div>
+
+      <div class="ser_text3">
+        我們的目標是創造有用、好用，人們渴望、效率好又有效的應用程式；<br> 是以使用者為中心的方法進行開發，聚焦著力於顧客的體驗上，
+        <br> 以提升服務前端的品質為成功的關鍵及價值所在。
+      </div>
+      <div class="ser_img_class">
+        <div class="ser_img"></div>
+      </div>
 
     </div>
 
-    <div class="m_text4 color_content">
- 		所以行動裝置的時代已經不再是未來，它早已深入在我們的生活中，伴隨著我們度過每一個瞬間。<br>
- 		而要開發一個兼具時尚與實用APP不只單單只是找一個懂技術的好朋友寫寫程式而已。<br>
- 		一個吸引人的APP除了需要具備瘋狂的行銷人、企劃人之外，還需要優秀的美術人，才能將您的APP推向世界的另一端。<br>
- 		而我們深知這一點，方塊夫除了擁有專業的APP開發團隊外，也具備了堅強的設計陣容來滿足每個不同行業。<br>
-	</div>
-   </div>
+
+    <div class="mind">
+      <div class="m_title color_org">
+        <font class="color_gray">Mind to App，</font>App to Market!</div>
+      <div class="m_text color_gray2">APP production</div>
+
+      <div class="m_text_class">
+        <div class="m_img"></div>
+
+        <div class="m_text3 color_work_content"> 開發團隊並不僅僅是一些開發者。它是一個更大的團隊，能使所有事情都運作起來。</div>
+
+        <div class="m_text3  color_work_content">你可以想像一下百老匯音樂劇。演員在前台，但是幕後也發生著許多事情。開發合格的 app也是一樣
+          <div class="m_img2"></div>
+
+        </div>
+
+
+
+        <div class="m_text2">-Ryan Matzner</div>
+
+      </div>
+
+      <div class="m_text4 color_content">
+        所以行動裝置的時代已經不再是未來，它早已深入在我們的生活中，伴隨著我們度過每一個瞬間。<br> 而要開發一個兼具時尚與實用APP不只單單只是找一個懂技術的好朋友寫寫程式而已。
+        <br> 一個吸引人的APP除了需要具備瘋狂的行銷人、企劃人之外，還需要優秀的美術人，才能將您的APP推向世界的另一端。
+        <br> 而我們深知這一點，方塊夫除了擁有專業的APP開發團隊外，也具備了堅強的設計陣容來滿足每個不同行業。
+        <br>
+      </div>
+    </div>
 
 
     <div class="game">
-     <div class="g_title"><font class="color_game">Game + Media = </font><font class="color_org">Fun</font></div>
-     <div class="g_text color_gray2">Game production</div>
-     <div class="g_text2 color_content">從過去老舊的286電腦、Atari2600主機、任天堂紅白機、a'Can主機、Game&Watch<br>
-										掌上機到後來的Online Game、Xbox，或是現今的手機遊戲時代裡，大多以遊戲創造IP。
-	 </div>
-     <div class="g_text3 color_content">而要將現有的IP(Intelligence Property)帶入遊戲中並賦予它生命及靈魂，除了熟知的遊戲企劃、<br>
-										程式、美術、配音、製作人員外，方塊夫的團隊裡還有一群瘋狂的行銷人，將虛實整合的行銷創意帶入遊戲的世界；<br>
-							 			讓遊戲不再只是單一的遊戲，而是發展成1+1大於3的遊戲，
-										將現有故事內容無限延伸。<br>除此之外，近期內也幫許多遊戲大廠OEM(Original Equipment
-										Manufacturing)委託代工，<br> 經過與多家日本遊戲大廠的交流更提升團隊人員美術的素質。
-     </div>
+      <div class="g_title">
+        <font class="color_game">Game + Media = </font>
+        <font class="color_org">Fun</font>
+      </div>
+      <div class="g_text color_gray2">Game production</div>
+      <div class="g_text2 color_content">從過去老舊的286電腦、Atari2600主機、任天堂紅白機、a'Can主機、Game&Watch<br> 掌上機到後來的Online Game、Xbox，或是現今的手機遊戲時代裡，大多以遊戲創造IP。
+      </div>
+      <div class="g_text3 color_content">而要將現有的IP(Intelligence Property)帶入遊戲中並賦予它生命及靈魂，除了熟知的遊戲企劃、<br> 程式、美術、配音、製作人員外，方塊夫的團隊裡還有一群瘋狂的行銷人，將虛實整合的行銷創意帶入遊戲的世界；
+        <br> 讓遊戲不再只是單一的遊戲，而是發展成1+1大於3的遊戲， 將現有故事內容無限延伸。
+        <br>除此之外，近期內也幫許多遊戲大廠OEM(Original Equipment Manufacturing)委託代工，
+        <br> 經過與多家日本遊戲大廠的交流更提升團隊人員美術的素質。
+      </div>
 
 
     </div>
-</section>
+  </section>
 
-<section id="work">
-	<div class="work" >
-		<div class="w_title color_gray">WORK</div>
-     	<div class="w_logo">
-      		<div class="w_img_btn Eslite"><img src="netweb_imgs/WORK/Eslite/Eslite.png"></div>
-      		<div class="w_img_btn li"><img src="netweb_imgs/WORK/li/li.png"></div>
-      		<div class="w_img_btn dressbook"><img src="netweb_imgs/WORK/Dressbook/dressbook.png"></div>
-     	</div>
+  <section id="work">
+    <div class="work">
+      <div class="w_title color_gray">WORK</div>
+      <div class="w_logo">
+        <div class="w_img_btn Eslite"><img src="images/WORK/Eslite/Eslite.png"></div>
+        <div class="w_img_btn li"><img src="images/WORK/li/li.png"></div>
+        <div class="w_img_btn dressbook"><img src="images/WORK/Dressbook/dressbook.png"></div>
+      </div>
 
-     <div class="work_content">
-     	<div class="content_work eslite look">
-     		<div class="w_img">
-	     		<div class=" work_img1"><img class="work_img_wh" src="netweb_imgs/WORK/Eslite/1.png"></div>
-	     		<div class=" work_img2"><img class="work_img_wh" src="netweb_imgs/WORK/Eslite/2.png"></div>
-	     		<div class=" work_img3"><img class="work_img_wh" src="netweb_imgs/WORK/Eslite/3.png"></div>
-	     	</div>
+      <div class="work_content">
+        <div class="content_work eslite look">
+          <div class="w_img">
+            <div class=" work_img1"><img class="work_img_wh" src="images/WORK/Eslite/1.png"></div>
+            <div class=" work_img2"><img class="work_img_wh" src="images/WORK/Eslite/2.png"></div>
+            <div class=" work_img3"><img class="work_img_wh" src="images/WORK/Eslite/3.png"></div>
+          </div>
 
-	     	<div class="w_name color_work">
-	      		<div class="w_name_logo"><img src="netweb_imgs/WORK/Eslite/Eslite.png"></div>
-	      		<div class="w_name_name">Eslite-誠品書局</div>
-	    	</div>
+          <div class="w_name color_work">
+            <div class="w_name_logo"><img src="images/WORK/Eslite/Eslite.png"></div>
+            <div class="w_name_name">Eslite-誠品書局</div>
+          </div>
 
-	     	<div class="w_market">
-	      		<div class="ios"><img src="netweb_imgs/WORK/apple_dark.png"></div>
-	      		<div class="android"><img src="netweb_imgs/WORK/android_gray.png"></div>
-	     	</div>
+          <div class="w_market">
+            <div class="ios"><img src="images/WORK/apple_dark.png"></div>
+            <div class="android"><img src="images/WORK/android_gray.png"></div>
+          </div>
 
-	     	<div class="w_text color_work_content">Eslite-誠品書局 APP 獨享四大服務功能，開啟您的鏡頭尋好物，<br>
-	     											個人化成品日曆掌握各種資訊，天天補給更有觸動的下一刻還有<br>
-	     											及時查找各大誠品書店、商場。
+          <div class="w_text color_work_content">Eslite-誠品書局 APP 獨享四大服務功能，開啟您的鏡頭尋好物，<br> 個人化成品日曆掌握各種資訊，天天補給更有觸動的下一刻還有
+            <br> 及時查找各大誠品書店、商場。
 
-	     	</div>
-		</div>
+          </div>
+        </div>
 
-		<div class="content_work li no_look">
-	     	<div class="w_img">
-	     		<div class="work_img1"><img class="work_img_wh" src="netweb_imgs/WORK/li/2.png"></div>
-	     		<div class="work_img2"><img class="work_img_wh" src="netweb_imgs/WORK/li/1.png"></div>
-	     		<div class="work_img3"><img class="work_img_wh" src="netweb_imgs/WORK/li/3.png"></div>
-	     	</div>
+        <div class="content_work li no_look">
+          <div class="w_img">
+            <div class="work_img1"><img class="work_img_wh" src="images/WORK/li/2.png"></div>
+            <div class="work_img2"><img class="work_img_wh" src="images/WORK/li/1.png"></div>
+            <div class="work_img3"><img class="work_img_wh" src="images/WORK/li/3.png"></div>
+          </div>
 
-	     	<div class="w_name">
-	      		<div class="w_name_logo"><img src="netweb_imgs/WORK/li/li.png"></div>
-	      		<div class="w_name_name color_work">大立精品</div>
-	    	</div>
+          <div class="w_name">
+            <div class="w_name_logo"><img src="images/WORK/li/li.png"></div>
+            <div class="w_name_name color_work">大立精品</div>
+          </div>
 
-	     	<div class="w_market">
-	      		<div class="ios"><img src="netweb_imgs/WORK/apple_gray.png"></div>
-	      		<div class="android"><img src="netweb_imgs/WORK/android_dark.png"></div>
-	     	</div>
+          <div class="w_market">
+            <div class="ios"><img src="images/WORK/apple_gray.png"></div>
+            <div class="android"><img src="images/WORK/android_dark.png"></div>
+          </div>
 
-	     	<div class="w_text color_work_content">精品時尚在手中，讓您隨時隨地掌握最新、最優惠的活動與獨享好康訊息。<br>
-	     											全館品牌簡介，隨時掌握時尚風；個人時尚衣櫃，流行穿搭一手抓；<br>
-	     											專屬好康提醒，超值優惠不漏接。
-	     	</div>
-		</div>
+          <div class="w_text color_work_content">精品時尚在手中，讓您隨時隨地掌握最新、最優惠的活動與獨享好康訊息。<br> 全館品牌簡介，隨時掌握時尚風；個人時尚衣櫃，流行穿搭一手抓；
+            <br> 專屬好康提醒，超值優惠不漏接。
+          </div>
+        </div>
 
-		<div class="content_work dressbook no_look">
-	     	<div class="w_img">
-	     		<div class="work_img1"><img class="work_img_wh" src="netweb_imgs/WORK/Dressbook/2.png"></div>
-	     		<div class="work_img2"><img class="work_img_wh" src="netweb_imgs/WORK/Dressbook/1.png"></div>
-	     		<div class="work_img3"><img class="work_img_wh" src="netweb_imgs/WORK/Dressbook/3.png"></div>
-	     	</div>
+        <div class="content_work dressbook no_look">
+          <div class="w_img">
+            <div class="work_img1"><img class="work_img_wh" src="images/WORK/Dressbook/2.png"></div>
+            <div class="work_img2"><img class="work_img_wh" src="images/WORK/Dressbook/1.png"></div>
+            <div class="work_img3"><img class="work_img_wh" src="images/WORK/Dressbook/3.png"></div>
+          </div>
 
-	     	<div class="w_name">
-	      		<div class="w_name_logo"><img src="netweb_imgs/WORK/Dressbook/dressbook.png"></div>
-	      		<div class="w_name_name color_work">dressbook</div>
-	    	</div>
+          <div class="w_name">
+            <div class="w_name_logo"><img src="images/WORK/Dressbook/dressbook.png"></div>
+            <div class="w_name_name color_work">dressbook</div>
+          </div>
 
-	     	<div class="w_market">
-	      		<div class="ios"><img src="netweb_imgs/WORK/apple_gray.png"></div>
-	      		<div class="android"><img src="netweb_imgs/WORK/android_dark.png"></div>
-	     	</div>
+          <div class="w_market">
+            <div class="ios"><img src="images/WORK/apple_gray.png"></div>
+            <div class="android"><img src="images/WORK/android_dark.png"></div>
+          </div>
 
-	     	<div class="w_text color_work_content">dressbook是為了服務熱愛時尚的您所開發製作的社群軟體。<br>
-	     									透過dressbook，您可以輕鬆展示個人style的穿搭，更清楚掌握衣櫃裡的單品，<br>
-	     									還有更容易交到與自己style相合的好友！
-	     		</div>
+          <div class="w_text color_work_content">dressbook是為了服務熱愛時尚的您所開發製作的社群軟體。<br> 透過dressbook，您可以輕鬆展示個人style的穿搭，更清楚掌握衣櫃裡的單品，
+            <br> 還有更容易交到與自己style相合的好友！
+          </div>
 
-	     	</div>
-		</div>
+        </div>
+      </div>
 
-	</div>
-
-
-</div>
-</section>
-
-
-	<section id="contact">
-	<div class="contact">
-
-	 <div class="c_title color_gray">CONTACT</div>
-
-	 <div class="map" id="map">
-	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.527588154707!2d121.57931540000003!3d25.050101300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab9c31b25d61%3A0xd245f7b6daa1e24e!2zMTA15Y-w5YyX5biC5p2-5bGx5Y2A5YWr5b636Lev5Zub5q61NzYw6Jmf!5e0!3m2!1szh-TW!2stw!4v1436431661306" width="1903" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
-	  </div>
-	 <div id="c_input">
-	  <form id="mail_data">
-		  <input type="text" id="name" name="name" placeholder="Your Name" style="width:380px;height:45px;"><p></p>
-		  <input type="email" id="address" name="mail" placeholder="Your E-Mail" style="width:380px;height:45px;"><p></p>
-		  <textarea style="width:380px;height:180px;" id="msg" placeholder="Your Message"></textarea>
-	  </form>
-	  <div id="loading"></div>
-	  <div class="send_btn"></div>
-	 </div>
-
-	 <div id="c_contact" class="color_content">
-
-	  <div class="bottom_info">
-		   <div class="bottom_img tel_text_img"></div>
-		   <div class="bottom_text">+886-2-2222-2222</div>
-	  </div>
-
-	  <div class="bottom_info page-scroll" id="bottom_center">
-	   	<a href="#name"><div class="bottom_img mail_text_img"></div></a>
-	   	<div class="bottom_text">contact@mail.com</div>
-	  </div>
-
-	  <div class="bottom_info page-scroll">
-	   	<a href="#contact"><div class="bottom_img add_text_img"></div></a>
-	   	<div class="bottom_text" id="address_text">105 台北市松山區<br>八德路四段760號4樓之1</div>
-	  </div>
-
-	 </div>
-
-	</div>
-</section>
-
-    <footer class="text-center">
-        <div class="footer-below">
-        	<div class="footer_class">
-    			<div class="footer_text">
-    			<div class="footer_logo"></div>
-    			Copyright © 2014 Fun Craft. All Rights Reserved.
-    			</div>
-    		</div>
-    	</div>
-    </footer>
-
-
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
     </div>
 
 
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/main.js"></script>
-
-    <script src="js/isotope.pkgd.min.js"></script>
-
-    <!-- ken  JavaScript -->
-    <script src="js/background_change.js"></script>
-
-
-    <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $('#nav').localScroll(800);
-
-        //.parallax(xPosition, speedFactor, outerHeight) options:
-        //xPosition - Horizontal position of the element
-        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-        $('.parallax').parallax("50%", 0.6);
-        $('#about_intro').parallax("50%", 0.5);
-        // init Isotope
-        var $container = $('#work-container').isotope({
-        });
-        // filter items on button click
-        $('#filters').on( 'click', 'button', function() {
-          var filterValue = $(this).attr('data-filter');
-          $container.isotope({ filter: filterValue });
-        });
-
-
-
-    })
-    </script>
-
-	<script type="text/javascript">
-	$(document).ready(function(){
-		var old_index = 0;
-		var now_index = 0;
-		var class_length = 4;
-		var dot_length = $(".timeline_dot").length;
-
-		$(".timeline_dot").click(function(){
-			now_index = $(this).index(".timeline_dot");
-			Changstort(now_index,old_index);
-			old_index = now_index;
-		});
-
-		//story左右建切換
-		$(".story_btn").click(function(){
-			var btn_index = $(this).index(".story_btn");
-
-			if( btn_index == 0 ){
-				now_index = old_index - 1;
-			}else{
-				now_index = old_index + 1;
-			}
-
-			if(now_index >= dot_length)
-				now_index = 0;
-			if(now_index < 0)
-				now_index = dot_length-1;
-
-			Changstort(now_index,old_index);
-			old_index = now_index;
-		});
-
-		//置換內容
-		function Changstort(now_index,old_index){
-
-
-			$(".story_text").each(function(){
-				 $(this).addClass("no_look");
-			 });
-			$(".story_text").eq(now_index).removeClass("no_look");
-
-			var now_ck_dot = now_index%class_length;
-			var old_ck_dot = old_index%class_length;
-
-			var now_classname = Getclassname(now_ck_dot);
-			var old_classname = Getclassname(old_ck_dot);
-
-			$(".timeline_dot").eq(old_index).removeClass(old_classname);
-			$(".timeline_dot").eq(now_index).addClass(now_classname);
-
-		}
-		//選擇bk className
-		function Getclassname(ck_dot){
-			switch(ck_dot){
-				case 0:
-					classname = "dot1_1";
-				break;
-				case 1:
-					classname = "dot1_2";
-					break;
-				case 2:
-					classname = "dot1_3";
-					break;
-				case 3:
-					classname = "dot1_4";
-					break;
-				}
-			return classname;
-		}
-
-		$(".timeline_dot").eq(0).click();
-	})
-
-
-
-	 </script>
-
-	 <script type="text/javascript">
-	 $(document).ready(function(){
-		 resize_fc();
-
-		 var now = 0,
-		 	 old = 0,
-		 	 now_1 = 0,
-		 	 old_1 = 0;
-		 $(".workteam_btn").click(function(){
-			var index = $(this).index();
-			$(".workteam_data").each(function() {
-
-				$(this).addClass("no_look");
-
-			});
-
-			$(".workteam_data").eq(index).removeClass("no_look");
-
-			old = now;
-			now = index;
-
-			var old_class = Getclassimg(old);
-			var now_class = Getclassimg(now);
-
-			$(".workteam_btn").eq(old).removeClass(old_class);
-			$(".workteam_btn").eq(now).addClass(now_class);
-
-		 });
-
-		 function Getclassimg(ck_img){
-				switch(ck_img){
-					case 0:
-						classname = "img1_1";
-					break;
-					case 1:
-						classname = "img2_1";
-						break;
-					case 2:
-						classname = "img3_1";
-						break;
-					}
-				return classname;
-		};
-
-		$(".workteam_btn").eq(0).click();
-
-
-
-
-		 $(".change_team").click(function(){
-
-			 var index = $(this).index();
-
-			 $(".show_work_team").each(function(){
-				 $(this).addClass("no_look");
-			 });
-			 $(".show_work_team").eq(index).removeClass("no_look");
-
-			 old_1 = now_1;
-			 now_1 = index;
-
-			var old_class_team = Getclassteam(old_1);
-			var now_class_team = Getclassteam(now_1);
-
-			$(".change_team").eq(old_1).removeClass(old_class_team);
-			$(".change_team").eq(now_1).addClass(now_class_team);
-		 });
-
-		 function Getclassteam(ck_team){
-				switch(ck_team){
-					case 0:
-						classname = "appteam-1";
-					break;
-					case 1:
-						classname = "gameteam-1";
-						break;
-					case 2:
-						classname = "designteam-1";
-						break;
-					case 3:
-						classname = "techteam-1";
-						break;
-					}
-				return classname;
-		}
-
-		$(".change_team").eq(0).click();
-
-	 	$(".w_img_btn").click(function(){
-            var ck_idx = $(this).index();
-            now_work_index = ck_idx;
-            if(ck_idx == $(".look").index(".content_work")){
-                return;
-            };
-            reset_look(ck_idx);
-	 		change_look(ck_idx);
-
-		});
-
-		var mailFlug = true;
-		$(".send_btn").click(function(){
-			if(mailFlug){
-				mailFlug = false;
-
-				var mail_data;
-				var name 			= $("#name").val();
-				var mail_address 	= $("#address").val();
-				var mail_content 	= $("#msg").val();
-
-				if( name == "" || mail_address == "" || mail_content == "" ){
-					$("#loading").html("Please input something.");
-					mailFlug =true;
-					return
-				}
-
-				$("#loading").html("<img id='loading_img' src='netweb_imgs/support-loading.gif' ></img>");
-
-				$.post(
-						 "mail.php",
-						 {
-							 name	 : name,
-							 address : mail_address,
-							 content : mail_content
-					 	 },
-					 	 function(result){
-				 		}).complete(function() {
-				 			$("#loading").html("SUCCESS");
-				 			$("#name").val("");
-				 			$("#address").val("");
-				 			$("#msg").val("");
-				 			mailFlug = true;
-				 	 })
-			}
-		})
-
-
-		$( ".mail_text_img" ).click(function() {
-			  $( "#name" ).focus();
-		});
-
-	});
-
-	 function resize_fc(){
-		 var window_w = $(window).width();
-		 $(".bk_change").css("height",$(".allheader").height());
-	 }
-
-	 function change_look(idx)
-	 {
-		 //var old_look_idx = $(".content_work").index(".look");
-		 var index = idx;
-		 $(".content_work").each(function(){
-			 $(this).addClass("no_look");
-			 $(this).removeClass("look");
-		 });
-		 $(".content_work").eq(index).removeClass("no_look");
-		 $(".content_work").eq(index).addClass("look");
-
-         var img1 = $(".w_img").eq(index).find(".work_img1");
-         var img2 = $(".w_img").eq(index).find(".work_img2");
-         var img3 = $(".w_img").eq(index).find(".work_img3");
-         var move_val = 280;
-         var speed_time = 1000;
-
-         img2.animate({opacity:'1'},speed_time,function(){
-             img1.css("opacity",1);
-             img3.css("opacity",1);
-				img1.animate({left:-move_val});
-				img3.animate({left:move_val});
-			});
-
-	 }
-
-	 function reset_look(idx){
-		 var img1 = $(".w_img").eq(idx).find(".work_img1");
-         var img2 = $(".w_img").eq(idx).find(".work_img2");
-         var img3 = $(".w_img").eq(idx).find(".work_img3");
-         img1.stop();
-         img2.stop();
-         img3.stop();
-         img1.css({"left":0,"opacity":0});
-         img2.css({"left":-10,"opacity":0});
-         img3.css({"left":0,"opacity":0});
-	 }
-
-	 </script>
-
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="contact">
+
+      <div class="c_title color_gray">CONTACT</div>
+
+      <div class="map" id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.527588154707!2d121.57931540000003!3d25.050101300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab9c31b25d61%3A0xd245f7b6daa1e24e!2zMTA15Y-w5YyX5biC5p2-5bGx5Y2A5YWr5b636Lev5Zub5q61NzYw6Jmf!5e0!3m2!1szh-TW!2stw!4v1436431661306"
+          width="1903" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div id="c_input">
+        <form id="mail_data">
+          <input type="text" id="name" name="name" placeholder="Your Name" style="width:380px;height:45px;">
+          <p></p>
+          <input type="email" id="address" name="mail" placeholder="Your E-Mail" style="width:380px;height:45px;">
+          <p></p>
+          <textarea style="width:380px;height:180px;" id="msg" placeholder="Your Message"></textarea>
+        </form>
+        <div id="loading"></div>
+        <div class="send_btn"></div>
+      </div>
+
+      <div id="c_contact" class="color_content">
+
+        <div class="bottom_info">
+          <div class="bottom_img tel_text_img"></div>
+          <div class="bottom_text">+886-2-2222-2222</div>
+        </div>
+
+        <div class="bottom_info page-scroll" id="bottom_center">
+          <a href="#name">
+            <div class="bottom_img mail_text_img"></div>
+          </a>
+          <div class="bottom_text">contact@mail.com</div>
+        </div>
+
+        <div class="bottom_info page-scroll">
+          <a href="#contact">
+            <div class="bottom_img add_text_img"></div>
+          </a>
+          <div class="bottom_text" id="address_text">105 台北市松山區<br>八德路四段760號4樓之1</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="text-center">
+    <div class="footer-below">
+      <div class="footer_class">
+        <div class="footer_text">
+          <div class="footer_logo"></div>
+          Copyright © 2014 Fun Craft. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top page-scroll visible-xs visble-sm">
+    <a class="btn btn-primary" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/cbpAnimatedHeader.js"></script>
+  <!-- ken JavaScript -->
+  <script src="js/background_change.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
